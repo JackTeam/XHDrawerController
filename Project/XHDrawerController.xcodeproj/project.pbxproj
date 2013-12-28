@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB38B9BE186DB4370033AECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38B9BD186DB4370033AECA /* Foundation.framework */; };
+		AB38B9C0186DB4370033AECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38B9BF186DB4370033AECA /* CoreGraphics.framework */; };
+		AB38B9C2186DB4370033AECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38B9C1186DB4370033AECA /* UIKit.framework */; };
+		AB38B9C8186DB4370033AECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB38B9C6186DB4370033AECA /* InfoPlist.strings */; };
+		AB38B9CA186DB4370033AECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38B9C9186DB4370033AECA /* main.m */; };
+		AB38B9CE186DB4370033AECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38B9CD186DB4370033AECA /* AppDelegate.m */; };
+		AB38B9D9186DB4370033AECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB38B9D8186DB4370033AECA /* Images.xcassets */; };
+		AB38B9E0186DB4380033AECA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38B9DF186DB4380033AECA /* XCTest.framework */; };
+		AB38B9E1186DB4380033AECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38B9BD186DB4370033AECA /* Foundation.framework */; };
+		AB38B9E2186DB4380033AECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38B9C1186DB4370033AECA /* UIKit.framework */; };
+		AB38B9EA186DB4380033AECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB38B9E8186DB4380033AECA /* InfoPlist.strings */; };
+		AB38B9EC186DB4380033AECA /* XHDrawerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38B9EB186DB4380033AECA /* XHDrawerControllerTests.m */; };
+		AB38B9F9186DB4D50033AECA /* XHDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38B9F8186DB4D50033AECA /* XHDrawerController.m */; };
+		AB38BA08186DB5070033AECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB38BA06186DB5070033AECA /* InfoPlist.strings */; };
+		AB38BA0D186DB5140033AECA /* XHDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38B9F8186DB4D50033AECA /* XHDrawerController.m */; };
+		AB38BA0E186DB5250033AECA /* XHDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB38B9F7186DB4D50033AECA /* XHDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB38BA11186DBE820033AECA /* XHZoomDrawerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB38BA0F186DBE820033AECA /* XHZoomDrawerView.h */; };
+		AB38BA12186DBE820033AECA /* XHZoomDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA10186DBE820033AECA /* XHZoomDrawerView.m */; };
+		AB38BA13186DBE820033AECA /* XHZoomDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA10186DBE820033AECA /* XHZoomDrawerView.m */; };
+		AB38BA16186DBFBC0033AECA /* XHDrawerControllerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AB38BA15186DBFBC0033AECA /* XHDrawerControllerHeader.h */; };
+		AB38BA19186DDA6B0033AECA /* XHExampleSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA18186DDA6B0033AECA /* XHExampleSideDrawerViewController.m */; };
+		AB38BA1C186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA1B186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m */; };
+		AB38BA1F186DDA920033AECA /* XHExampleRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA1E186DDA920033AECA /* XHExampleRightSideDrawerViewController.m */; };
+		AB38BA22186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38BA21186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB38B9E3186DB4380033AECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB38B9B2186DB4370033AECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB38B9B9186DB4370033AECA;
+			remoteInfo = XHDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB38B9BA186DB4370033AECA /* XHDrawerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHDrawerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB38B9BD186DB4370033AECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB38B9BF186DB4370033AECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB38B9C1186DB4370033AECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB38B9C5186DB4370033AECA /* XHDrawerController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHDrawerController-Info.plist"; sourceTree = "<group>"; };
+		AB38B9C7186DB4370033AECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB38B9C9186DB4370033AECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB38B9CB186DB4370033AECA /* XHDrawerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHDrawerController-Prefix.pch"; sourceTree = "<group>"; };
+		AB38B9CC186DB4370033AECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB38B9CD186DB4370033AECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB38B9D8186DB4370033AECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB38B9DE186DB4380033AECA /* XHDrawerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHDrawerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB38B9DF186DB4380033AECA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB38B9E7186DB4380033AECA /* XHDrawerControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHDrawerControllerTests-Info.plist"; sourceTree = "<group>"; };
+		AB38B9E9186DB4380033AECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB38B9EB186DB4380033AECA /* XHDrawerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHDrawerControllerTests.m; sourceTree = "<group>"; };
+		AB38B9F7186DB4D50033AECA /* XHDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawerController.h; sourceTree = "<group>"; };
+		AB38B9F8186DB4D50033AECA /* XHDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDrawerController.m; sourceTree = "<group>"; };
+		AB38BA02186DB5070033AECA /* XHDrawerControllerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHDrawerControllerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB38BA05186DB5070033AECA /* XHDrawerControllerSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHDrawerControllerSDK-Info.plist"; sourceTree = "<group>"; };
+		AB38BA07186DB5070033AECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB38BA09186DB5070033AECA /* XHDrawerControllerSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHDrawerControllerSDK-Prefix.pch"; sourceTree = "<group>"; };
+		AB38BA0F186DBE820033AECA /* XHZoomDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHZoomDrawerView.h; sourceTree = "<group>"; };
+		AB38BA10186DBE820033AECA /* XHZoomDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHZoomDrawerView.m; sourceTree = "<group>"; };
+		AB38BA15186DBFBC0033AECA /* XHDrawerControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawerControllerHeader.h; sourceTree = "<group>"; };
+		AB38BA17186DDA6B0033AECA /* XHExampleSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleSideDrawerViewController.h; sourceTree = "<group>"; };
+		AB38BA18186DDA6B0033AECA /* XHExampleSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleSideDrawerViewController.m; sourceTree = "<group>"; };
+		AB38BA1A186DDA840033AECA /* XHExampleLeftSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleLeftSideDrawerViewController.h; sourceTree = "<group>"; };
+		AB38BA1B186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleLeftSideDrawerViewController.m; sourceTree = "<group>"; };
+		AB38BA1D186DDA920033AECA /* XHExampleRightSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleRightSideDrawerViewController.h; sourceTree = "<group>"; };
+		AB38BA1E186DDA920033AECA /* XHExampleRightSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleRightSideDrawerViewController.m; sourceTree = "<group>"; };
+		AB38BA20186DDB260033AECA /* XHExampleCenterSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleCenterSideDrawerViewController.h; sourceTree = "<group>"; };
+		AB38BA21186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleCenterSideDrawerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB38B9B7186DB4370033AECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38B9C0186DB4370033AECA /* CoreGraphics.framework in Frameworks */,
+				AB38B9C2186DB4370033AECA /* UIKit.framework in Frameworks */,
+				AB38B9BE186DB4370033AECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38B9DB186DB4380033AECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38B9E0186DB4380033AECA /* XCTest.framework in Frameworks */,
+				AB38B9E2186DB4380033AECA /* UIKit.framework in Frameworks */,
+				AB38B9E1186DB4380033AECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38B9FC186DB5070033AECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB38B9B1186DB4370033AECA = {
+			isa = PBXGroup;
+			children = (
+				AB38B9F6186DB4B40033AECA /* Source */,
+				AB38B9C3186DB4370033AECA /* XHDrawerController */,
+				AB38B9E5186DB4380033AECA /* XHDrawerControllerTests */,
+				AB38BA03186DB5070033AECA /* XHDrawerControllerSDK */,
+				AB38B9BC186DB4370033AECA /* Frameworks */,
+				AB38B9BB186DB4370033AECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB38B9BB186DB4370033AECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9BA186DB4370033AECA /* XHDrawerController.app */,
+				AB38B9DE186DB4380033AECA /* XHDrawerControllerTests.xctest */,
+				AB38BA02186DB5070033AECA /* XHDrawerControllerSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB38B9BC186DB4370033AECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9BD186DB4370033AECA /* Foundation.framework */,
+				AB38B9BF186DB4370033AECA /* CoreGraphics.framework */,
+				AB38B9C1186DB4370033AECA /* UIKit.framework */,
+				AB38B9DF186DB4380033AECA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB38B9C3186DB4370033AECA /* XHDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9CC186DB4370033AECA /* AppDelegate.h */,
+				AB38B9CD186DB4370033AECA /* AppDelegate.m */,
+				AB38BA17186DDA6B0033AECA /* XHExampleSideDrawerViewController.h */,
+				AB38BA18186DDA6B0033AECA /* XHExampleSideDrawerViewController.m */,
+				AB38BA1A186DDA840033AECA /* XHExampleLeftSideDrawerViewController.h */,
+				AB38BA1B186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m */,
+				AB38BA1D186DDA920033AECA /* XHExampleRightSideDrawerViewController.h */,
+				AB38BA1E186DDA920033AECA /* XHExampleRightSideDrawerViewController.m */,
+				AB38BA20186DDB260033AECA /* XHExampleCenterSideDrawerViewController.h */,
+				AB38BA21186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m */,
+				AB38B9D8186DB4370033AECA /* Images.xcassets */,
+				AB38B9C4186DB4370033AECA /* Supporting Files */,
+			);
+			path = XHDrawerController;
+			sourceTree = "<group>";
+		};
+		AB38B9C4186DB4370033AECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9C5186DB4370033AECA /* XHDrawerController-Info.plist */,
+				AB38B9C6186DB4370033AECA /* InfoPlist.strings */,
+				AB38B9C9186DB4370033AECA /* main.m */,
+				AB38B9CB186DB4370033AECA /* XHDrawerController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB38B9E5186DB4380033AECA /* XHDrawerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9EB186DB4380033AECA /* XHDrawerControllerTests.m */,
+				AB38B9E6186DB4380033AECA /* Supporting Files */,
+			);
+			path = XHDrawerControllerTests;
+			sourceTree = "<group>";
+		};
+		AB38B9E6186DB4380033AECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9E7186DB4380033AECA /* XHDrawerControllerTests-Info.plist */,
+				AB38B9E8186DB4380033AECA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB38B9F6186DB4B40033AECA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AB38B9F7186DB4D50033AECA /* XHDrawerController.h */,
+				AB38B9F8186DB4D50033AECA /* XHDrawerController.m */,
+				AB38BA0F186DBE820033AECA /* XHZoomDrawerView.h */,
+				AB38BA10186DBE820033AECA /* XHZoomDrawerView.m */,
+				AB38BA15186DBFBC0033AECA /* XHDrawerControllerHeader.h */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		AB38BA03186DB5070033AECA /* XHDrawerControllerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AB38BA04186DB5070033AECA /* Supporting Files */,
+			);
+			path = XHDrawerControllerSDK;
+			sourceTree = "<group>";
+		};
+		AB38BA04186DB5070033AECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB38BA05186DB5070033AECA /* XHDrawerControllerSDK-Info.plist */,
+				AB38BA06186DB5070033AECA /* InfoPlist.strings */,
+				AB38BA09186DB5070033AECA /* XHDrawerControllerSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB38B9FD186DB5070033AECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38BA16186DBFBC0033AECA /* XHDrawerControllerHeader.h in Headers */,
+				AB38BA0E186DB5250033AECA /* XHDrawerController.h in Headers */,
+				AB38BA11186DBE820033AECA /* XHZoomDrawerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB38B9B9186DB4370033AECA /* XHDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB38B9EF186DB4380033AECA /* Build configuration list for PBXNativeTarget "XHDrawerController" */;
+			buildPhases = (
+				AB38B9B6186DB4370033AECA /* Sources */,
+				AB38B9B7186DB4370033AECA /* Frameworks */,
+				AB38B9B8186DB4370033AECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHDrawerController;
+			productName = XHDrawerController;
+			productReference = AB38B9BA186DB4370033AECA /* XHDrawerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB38B9DD186DB4380033AECA /* XHDrawerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB38B9F2186DB4380033AECA /* Build configuration list for PBXNativeTarget "XHDrawerControllerTests" */;
+			buildPhases = (
+				AB38B9DA186DB4380033AECA /* Sources */,
+				AB38B9DB186DB4380033AECA /* Frameworks */,
+				AB38B9DC186DB4380033AECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB38B9E4186DB4380033AECA /* PBXTargetDependency */,
+			);
+			name = XHDrawerControllerTests;
+			productName = XHDrawerControllerTests;
+			productReference = AB38B9DE186DB4380033AECA /* XHDrawerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB38BA01186DB5070033AECA /* XHDrawerControllerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB38BA0A186DB5070033AECA /* Build configuration list for PBXNativeTarget "XHDrawerControllerSDK" */;
+			buildPhases = (
+				AB38B9FA186DB5070033AECA /* ShellScript */,
+				AB38B9FB186DB5070033AECA /* Sources */,
+				AB38B9FC186DB5070033AECA /* Frameworks */,
+				AB38B9FD186DB5070033AECA /* Headers */,
+				AB38B9FE186DB5070033AECA /* Resources */,
+				AB38B9FF186DB5070033AECA /* ShellScript */,
+				AB38BA00186DB5070033AECA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHDrawerControllerSDK;
+			productName = XHDrawerControllerSDK;
+			productReference = AB38BA02186DB5070033AECA /* XHDrawerControllerSDK.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB38B9B2186DB4370033AECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "曾宪华 开发团队(http://iyilunba.com ) 本人QQ:543413507";
+				TargetAttributes = {
+					AB38B9DD186DB4380033AECA = {
+						TestTargetID = AB38B9B9186DB4370033AECA;
+					};
+				};
+			};
+			buildConfigurationList = AB38B9B5186DB4370033AECA /* Build configuration list for PBXProject "XHDrawerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB38B9B1186DB4370033AECA;
+			productRefGroup = AB38B9BB186DB4370033AECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB38B9B9186DB4370033AECA /* XHDrawerController */,
+				AB38BA01186DB5070033AECA /* XHDrawerControllerSDK */,
+				AB38B9DD186DB4380033AECA /* XHDrawerControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB38B9B8186DB4370033AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38B9D9186DB4370033AECA /* Images.xcassets in Resources */,
+				AB38B9C8186DB4370033AECA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38B9DC186DB4380033AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38B9EA186DB4380033AECA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38B9FE186DB5070033AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38BA08186DB5070033AECA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB38B9FA186DB5070033AECA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		AB38B9FF186DB5070033AECA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		AB38BA00186DB5070033AECA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\nif [[ \"$XCODE_VERSION_MAJOR\" == \"0500\" ]]\nthen\n    echo \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nelse\n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nfi \n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sfh $FRAMEWORK_VERSION \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sfh $FRAMEWORK_VERSION \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sfh \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB38B9B6186DB4370033AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38BA1F186DDA920033AECA /* XHExampleRightSideDrawerViewController.m in Sources */,
+				AB38BA1C186DDA840033AECA /* XHExampleLeftSideDrawerViewController.m in Sources */,
+				AB38BA22186DDB260033AECA /* XHExampleCenterSideDrawerViewController.m in Sources */,
+				AB38B9F9186DB4D50033AECA /* XHDrawerController.m in Sources */,
+				AB38B9CE186DB4370033AECA /* AppDelegate.m in Sources */,
+				AB38BA12186DBE820033AECA /* XHZoomDrawerView.m in Sources */,
+				AB38BA19186DDA6B0033AECA /* XHExampleSideDrawerViewController.m in Sources */,
+				AB38B9CA186DB4370033AECA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38B9DA186DB4380033AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38B9EC186DB4380033AECA /* XHDrawerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38B9FB186DB5070033AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38BA13186DBE820033AECA /* XHZoomDrawerView.m in Sources */,
+				AB38BA0D186DB5140033AECA /* XHDrawerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB38B9E4186DB4380033AECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB38B9B9186DB4370033AECA /* XHDrawerController */;
+			targetProxy = AB38B9E3186DB4380033AECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB38B9C6186DB4370033AECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB38B9C7186DB4370033AECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB38B9E8186DB4380033AECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB38B9E9186DB4380033AECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB38BA06186DB5070033AECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB38BA07186DB5070033AECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB38B9ED186DB4380033AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB38B9EE186DB4380033AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB38B9F0186DB4380033AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHDrawerController/XHDrawerController-Prefix.pch";
+				INFOPLIST_FILE = "XHDrawerController/XHDrawerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB38B9F1186DB4380033AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHDrawerController/XHDrawerController-Prefix.pch";
+				INFOPLIST_FILE = "XHDrawerController/XHDrawerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB38B9F3186DB4380033AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XHDrawerController.app/XHDrawerController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHDrawerController/XHDrawerController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XHDrawerControllerTests/XHDrawerControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB38B9F4186DB4380033AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XHDrawerController.app/XHDrawerController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHDrawerController/XHDrawerController-Prefix.pch";
+				INFOPLIST_FILE = "XHDrawerControllerTests/XHDrawerControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		AB38BA0B186DB5070033AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHDrawerControllerSDK/XHDrawerControllerSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XHDrawerControllerSDK/XHDrawerControllerSDK-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AB38BA0C186DB5070033AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHDrawerControllerSDK/XHDrawerControllerSDK-Prefix.pch";
+				INFOPLIST_FILE = "XHDrawerControllerSDK/XHDrawerControllerSDK-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB38B9B5186DB4370033AECA /* Build configuration list for PBXProject "XHDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB38B9ED186DB4380033AECA /* Debug */,
+				AB38B9EE186DB4380033AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB38B9EF186DB4380033AECA /* Build configuration list for PBXNativeTarget "XHDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB38B9F0186DB4380033AECA /* Debug */,
+				AB38B9F1186DB4380033AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB38B9F2186DB4380033AECA /* Build configuration list for PBXNativeTarget "XHDrawerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB38B9F3186DB4380033AECA /* Debug */,
+				AB38B9F4186DB4380033AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB38BA0A186DB5070033AECA /* Build configuration list for PBXNativeTarget "XHDrawerControllerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB38BA0B186DB5070033AECA /* Debug */,
+				AB38BA0C186DB5070033AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB38B9B2186DB4370033AECA /* Project object */;
+}
