@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    CGRect tableViewFrame = self.tableView.frame;
+    tableViewFrame.origin.y = 95;
+    tableViewFrame.size.height = 377;
+    self.tableView.frame = tableViewFrame;
+    [self.view addSubview:self.tableView];
 }
 
 - (void)didReceiveMemoryWarning

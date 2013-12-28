@@ -43,12 +43,6 @@
 	// Do any additional setup after loading the view.
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Left", @"") style:UIBarButtonItemStyleBordered target:self action:@selector(left)];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Right", @"") style:UIBarButtonItemStyleBordered target:self action:@selector(right)];
-    
-    CGRect tableViewFrame = self.tableView.frame;
-    tableViewFrame.origin.y = 95;
-    tableViewFrame.size.height = 377;
-    self.tableView.frame = tableViewFrame;
-    [self.view addSubview:self.tableView];
 }
 
 - (id)init {
