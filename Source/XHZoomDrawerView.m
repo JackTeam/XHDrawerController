@@ -18,6 +18,7 @@
     if (self) {        
         _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
         self.scrollView.scrollsToTop = NO;
+        self.scrollView.scrollEnabled = NO;
         self.scrollView.showsHorizontalScrollIndicator = NO;
         self.scrollView.showsVerticalScrollIndicator = NO;
         self.scrollView.backgroundColor = [UIColor clearColor];
