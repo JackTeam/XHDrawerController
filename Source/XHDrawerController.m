@@ -84,6 +84,9 @@ typedef enum ScrollDirection {
 }
 
 - (void)viewDidLoad {
+    [super viewDidLoad];
+    if ([self respondsToSelector:@selector(automaticallyAdjustsScrollViewInsets)])
+        self.automaticallyAdjustsScrollViewInsets = NO;
     self.zoomDrawerView.scrollView.delegate = self;
     self.zoomDrawerView.contentContainerButton.userInteractionEnabled = NO;
     [self.zoomDrawerView.contentContainerButton addTarget:self action:@selector(contentContainerButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
@@ -176,7 +179,7 @@ typedef enum ScrollDirection {
             if (drawerSide == XHDrawerSideLeft) {
                 [self.scrollView setContentOffset:CGPointMake(0.0f, 0.0f) animated:NO];
             } else if (drawerSide == XHDrawerSideRight) {
-                [self.scrollView setContentOffset:CGPointMake(CGRectGetWidth(self.scrollView.frame) + XHContentContainerViewOriginX, 0.0f) animated:NO];
+                [self.scrollView setContentOffset:CGPointMake(2 * XHContentContainerViewOriginX, 0.0f) animated:NO];
             }
             
         } completion:^(BOOL finished) {
